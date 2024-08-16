@@ -14,4 +14,4 @@
       state: started
       enabled: true
   - name: deploy to test-server
-    command: docker run -itd -p 8082:8082 rchristopher9913/medicure-app:3.0
+    command: docker run -itd -p 80:8082 rchristopher9913/medicure-app:3.0
